@@ -1,4 +1,4 @@
-/* // Bem vindo com delay
+/*  // Bem vindo com delay
 setTimeout(function () {
     let n1 = {
         nome: "???"
