@@ -1,51 +1,57 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400px;
     font-style: normal;
-} 
-body{
+}
+
+body {
     background-image: url(../imagens/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     height: 100vh;
     padding-top: 15vh;
     border-color: aquamarine;
-    
+
 }
-.cabecalho{
+
+.cabecalho {
     display: flex;
     justify-content: center;
     background-color: rgb(238, 146, 118);
-    height: 80% !important ;
+    height: 80% !important;
     border: 10px solid aqua;
     border-radius: 10px;
 
 
 }
-.cabecalho h1, p{
+
+.cabecalho h1,
+p {
     padding: 10px;
     width: 500px;
-    
+
 }
-.complementoPerfil{
+
+.complementoPerfil {
     background-color: rgb(197, 72, 0);
     opacity: 0.8;
-    color:white
+    color: white
 }
-.complementoPerfil p{
+
+.complementoPerfil p {
     margin-left: 4px;
     margin-top: 4px;
 }
 
-.perfil{
+.perfil {
     background-color: rgb(78, 68, 55);
     height: 100%;
     width: 100%;
@@ -53,4 +59,31 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.position-button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    height: 243px;
+    
+    
+}
+
+.btn-atualizarName {
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 450px;
+    height: 50px;
+    margin: 0 0 7px 0;
+}
+.btn-atualizarName:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.9s;
+
 }
