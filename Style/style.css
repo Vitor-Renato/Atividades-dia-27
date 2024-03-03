@@ -17,14 +17,17 @@ body{
     justify-content: center;
     height: 100vh;
     padding-top: 15vh;
-
-
+    border-color: aquamarine;
+    
 }
 .cabecalho{
     display: flex;
     justify-content: center;
     background-color: rgb(238, 146, 118);
     height: 80% !important ;
+    border: 10px solid aqua;
+    border-radius: 10px;
+
 
 }
 .cabecalho h1, p{
